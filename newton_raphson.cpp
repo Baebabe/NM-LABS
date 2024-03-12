@@ -17,7 +17,7 @@ float newton_raphson(float a, float e)
     int count=0;
     do
     {
-        if(derivative(a)==0){
+        if(derivative(a)<0.005){
             cout<<"The derivative is zero"<<endl;
             exit(0);
         }

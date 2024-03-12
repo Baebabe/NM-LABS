@@ -21,7 +21,7 @@ void trapezoidal_rule(float xn, float x0, float h, int n)
 
 void simpsons_1by3_rule(float xn, float x0, float h, int n)
 {
-    float sum1 = 0, sum2 = 0;
+    float sum1 = 0, sum2 = 0; 
     sum1 = f(x0) + f(xn);
     for (int i = 1; i < n; i++)
     {

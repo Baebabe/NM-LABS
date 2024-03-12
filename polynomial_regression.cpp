@@ -35,7 +35,7 @@ int main()
 cout<<endl;
     for (int i = 0; i <= d; i++) {
         for (int j = 0; j <= d + 1; j++) {
-            cout << "M[" << i << "][" << j << "] : ";
+            cout << "M["  << i << "][" << j << "] : ";
             cout << M[i][j] << endl;
         }
     }
