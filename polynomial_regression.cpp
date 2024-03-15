@@ -66,5 +66,5 @@ cout<<endl;
 	  	cout<<"a["<< i<<"] = "<< a[i]<< endl;
 	 }
 
-    return 0;
+    return 0;                 
 }

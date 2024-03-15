@@ -13,7 +13,7 @@ int main()
         cin >> y[i];
     }
     float xn;
-    cout<<"Enter the final value of x : "<<endl;
+    cout<<"Enter the final value of x where the value of y is needed to be interpolated: "<<endl;
     cin>>xn;
     float sum=0;
     for(int i=0;i<n;i++){
